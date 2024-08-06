@@ -23,9 +23,7 @@ export const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text tex-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
+          <h1 className="Welcome-text text-[20px] mr-2">Isabella Davila</h1>
         </motion.div>
 
         <motion.div
@@ -33,9 +31,12 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
-            project experience
+            Aspiring astronaut, with
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              unwavering{" "}
+            </span>
+            determination
           </span>
         </motion.div>
 
@@ -43,8 +44,16 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          As an Aerospace Engineering student at the University of Colorado
+          Boulder, with minors in Russian and Geology, I am dedicated to pushing
+          boundaries, fusing cutting-edge engineering with multidisciplinary
+          insights. My dream of becoming an astronaut fuels my relentless
+          pursuit of excellence and innovation through rigorous academics,
+          hands-on experiences, and leadership roles. My Russian proficiency
+          bridges international collaboration, while geological knowledge
+          enriches my understanding of extraterrestrial environments. I am eager
+          to make significant contributions to space exploration,expanding
+          humanity's reach from Earth into the stars.
         </motion.p>
 
         <motion.a
