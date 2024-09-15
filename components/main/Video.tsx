@@ -11,8 +11,8 @@ const Video: React.FC = () => {
 			<div className="flex flex-col md:flex-row gap-10 px-4 md:px-10 pb-10">
 				<div>
 					<iframe
-						width="500"
-						height="400"
+						width="400"
+						height="300"
 						src="https://www.youtube.com/embed/HEVTlkH8o5k?si=MO0X4Hs72VEgouYG"
 						title="YouTube video player"
 						frameBorder="0"
@@ -24,8 +24,8 @@ const Video: React.FC = () => {
 			
 				<div>
 					<iframe
-						width="500px"
-						height="400px"
+						width="400px"
+						height="300px"
 						src="https://www.youtube.com/embed/3Tw1wiJNqcU?si=o71OO9dQmWhNctkg"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -35,8 +35,8 @@ const Video: React.FC = () => {
 				</div>
 				<div>
 					<iframe
-						width="500px"
-						height="400px"
+						width="400px"
+						height="500px"
 						src="https://www.youtube.com/embed/TiK3GcXhFOo?si=6DViWZN0Jp_DTuV1"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
