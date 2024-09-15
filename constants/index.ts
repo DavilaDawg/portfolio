@@ -24,14 +24,17 @@ export const Skill_data = [
     {
       name: "Linked-in",
       src: "/link.png",
+      url: "https://www.linkedin.com/in/isabella-davila-"
     },
     {
       name: "Youtube",
       src: "/youtube.svg",
+      url: "https://www.youtube.com/@Theaerotutor"
     }, 
     {
       name: "Mail",
       src: "/gmail.jpg",
+      url: "mailto:idavila2021@gmail.com"
     }
   ];
   
