@@ -28,6 +28,8 @@ const Video: React.FC = () => {
 						height="500px"
 						src="https://www.youtube.com/embed/3Tw1wiJNqcU?si=o71OO9dQmWhNctkg"
 						title="YouTube video player"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerPolicy="strict-origin-when-cross-origin"
 						allowFullScreen
 					/>
 				</div>
@@ -37,6 +39,8 @@ const Video: React.FC = () => {
 						height="500px"
 						src="https://www.youtube.com/embed/TiK3GcXhFOo?si=6DViWZN0Jp_DTuV1"
 						title="YouTube video player"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerPolicy="strict-origin-when-cross-origin"
 						allowFullScreen
 					/>
 				</div>
