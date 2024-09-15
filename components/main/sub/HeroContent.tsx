@@ -53,9 +53,10 @@ export const HeroContent = () => {
 					teamwork. I also have experience refactoring a colleges mobile app for
 					dogs called PawGang. My dedication to learning and problem-solving
 					drives me to tackle complex challenges and make meaningful
-					contributions. Let’s create something remarkable together!
+					contributions. Let&apos;s create something remarkable together!
 				</motion.p>
 
+				{/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
 				<motion.a
 					variants={slideInFromLeft(1)}
 					className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
