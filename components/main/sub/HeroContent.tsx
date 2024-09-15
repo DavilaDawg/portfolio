@@ -47,13 +47,13 @@ export const HeroContent = () => {
 					As a senior in Aerospace Engineering at the University of Colorado
 					Boulder, with minors in Russian and Geology, and a graduate of
 					Codeworks, I offer a unique combination of skills and passion. I have
-					expertise in JavaScript, TypeScript, React, Angular, and Next.js. I&apos;ve
+					expertise in JavaScript, TypeScript, React, Angular, and Next.js. I have
 					developed projects, such as Rover&Out, an educational web app on Mars
 					exploration and Hop, a real-time browser-sharing tool designed for
 					teamwork. I also have experience refactoring a colleges mobile app for
 					dogs called PawGang. My dedication to learning and problem-solving
 					drives me to tackle complex challenges and make meaningful
-					contributions. Let&apos;s create something remarkable together!
+					contributions. Let us create something remarkable together!
 				</motion.p>
 
 				{/* biome-ignore lint/a11y/useValidAnchor: <explanation> */}
