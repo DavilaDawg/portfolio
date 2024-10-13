@@ -50,42 +50,38 @@ export const HeroContent = () => {
 					variants={slideInFromLeft(0.8)}
 					className="text-lg text-gray-400 my-5 max-w-[600px]"
 				>
-					As a senior in Aerospace Engineering at the University of Colorado
-					Boulder, with minors in Russian and Geology, and a graduate of
-					Codeworks, I offer a unique combination of skills and passion. I have
-					expertise in JavaScript, TypeScript, React, Angular, and Next.js. I
-					have developed projects, such as Rover&Out, an educational web app on
-					Mars exploration and Hop, a real-time browser-sharing tool designed
-					for teamwork. I also have experience refactoring a mobile app for dogs
-					called PawGang. My dedication to learning and problem-solving drives
-					me to tackle complex challenges and make meaningful contributions. Let
-					us create something remarkable together!
+					Aerospace Engineering senior at CU Boulder with minors in Russian and
+					Geology. Codeworks graduate specializing in JavaScript, TypeScript,
+					React, Angular, and Next.js. Creator of Rover&Out, an educational Mars
+					exploration web app, and contributor to Hop, a real-time
+					browser-sharing tool. Passionate problem-solver who thrives in
+					high-pressure environments ready to make meaningful impacts in tech
+					and aerospace.
 					{isExpanded && (
-						<span className="block mt-4">
-							With a background in Aerospace Engineering and software
-							development from Codeworks, I thrive in high-pressure,
-							collaborative environments. At codeworks, I studied for 12 hours a
-							day, 6 days a week for 3 months. My passion for learning often led
-							me to stay until 2 or 3 a.m, driven by the sheer enjoyment of my
-							work and the desire to produce projects I could be proud of. I
-							rapidly developed expertise in algorithms, data structures,
-							JavaScript, TypeScript, frameworks and more. At the University of
-							Colorado Boulder, I served as a Calculus 1 Learning Assistant and
-							participated in the NASA Student Launch Initiative, enhancing my
-							ability to communicate complex ideas. My leadership experience
-							includes serving in the Air Force ROTC, where I consistently
-							ranked in the top third in the nation's 8th largest detachment. As
-							Safety and Public Affairs Officer in the Honor Guard, I founded
-							the club's Instagram page, gaining 1,000 followers in six months,
-							and was awarded the Warrior Spirit Award for leadership and
-							morale. I also served as Logistics Technician and was selected as
-							one of eight superintendents, becoming second in command of the
-							operations branch. Balancing Aerospace Engineering with minors in
-							Geology and Russian and expertise in software development, I aim
-							to tackle challenges from multiple perspectives. I'm also pursuing
-							a private pilot's license and practicing Brazilian Jiu-Jitsu,
-							underscoring my commitment to personal growth and development.
-						</span>
+						<>
+							<span className="block mt-4">
+								Led cutting-edge aerospace projects, including developing an
+								autonomous Emergency Response Flyer in the GoAero competition
+								and ranking 8th in NASA's University Student Launch Challenge,
+								while mastering advanced software engineering skills through an
+								intensive bootcamp at Codeworks.
+							</span>
+							<span className="block mt-4">
+								Demonstrated leadership and technical expertise across diverse
+								roles, from managing logistics and operations in Air Force ROTC
+								to conducting field research in Africa, and serving as a
+								Calculus Learning Assistant.
+							</span>
+
+							<span className="block mt-4">
+								Applied advanced MATLAB skills across multiple aerospace labs,
+								conducting trade studies, optimizing aircraft designs,
+								conditioning data, analyzing complex systems and integrating
+								cross-team collaboration, while pursuing personal growth through
+								activities like Jiu Jitsu and creating educational content on
+								YouTube.
+							</span>
+						</>
 					)}
 				</motion.p>
 

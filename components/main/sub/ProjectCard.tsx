@@ -16,8 +16,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ src, url, title, description 
             <Image
                 src={src}
                 alt={title}
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-full object-contain"
             />
             <div className="relative p-4">
