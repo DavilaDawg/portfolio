@@ -157,8 +157,6 @@ const Labs: React.FC = () => {
 									{report.description}
 								</p>
 							</div>
-							{/* Arrow pointing to the report card */}
-							<div className="w-4 h-4 bg-gray-800 rotate-45 transform origin-top-left absolute top-full left-1/2 -ml-2" />
 						</div>
 					</div>
 				))}
