@@ -66,13 +66,50 @@ const labReports: LabReport[] = [
 		description:
 			"This lab simulates equations of motion using MATLAB's ODE solver. Problem 1 explores both converging and diverging system behaviors. Problem 2 models projectile motion, analyzing the impact of wind speed, altitude, and object mass on landing location and total distance traveled. Results show a direct relationship between wind speed and horizontal displacement, as well as mass effects on motion.",
 	},
-    {
+	{
 		id: 8,
-		title: "Motion Capture and Euler Angle Dynamics Experiment and Modeling In MATLAB",
+		title:
+			"Motion Capture and Euler Angle Dynamics Experiment and Modeling In MATLAB",
 		pdfUrl:
 			"https://drive.google.com/file/d/11Zp3KN6UFFLwawGsWXYjXx2m148sq5Vo/view?usp=sharing",
 		description:
 			"This lab investigates the dynamics of an aerospace vehicle and a target through motion capture and the analysis of relative positions and orientations. Using MATLAB, the 3-2-1 and 3-1-3 Euler angle rotation sequences were applied to calculate Direction Cosine Matrices (DCM) for both objects. The position and attitude of the vehicle and target were tracked in both inertial and body frames. Key results include the relative positions in the inertial frame and body frame, as well as the Euler angles that describe their orientations over time",
+	},
+	{
+		id: 9,
+		title:
+			"Electronics - Voltage Dividers, Grounding, and Signal Conditioning Analysis",
+		pdfUrl:
+			"https://drive.google.com/file/d/1kBvODwrhuVy8ABsYjCYZfHRqbJfOAAd3/view?usp=sharing",
+		description:
+			"This lab covers experiments on voltage dividers, grounding, equivalent circuits, and accelerometer measurements. Key findings include the impact of grounding on voltage measurements and the importance of proper signal conditioning for accurate accelerometer data. The results highlight the effects of impedance and the need for careful circuit analysis to achieve precise measurements.",
+	},
+	{
+		id: 10,
+		title:
+			"Electronics - AC/DC Coupling, RC Circuits, and Power Supply Analysis",
+		pdfUrl:
+			"https://drive.google.com/file/d/1HDg7Lg4EPGiPzFwo8S6n59vJT5AOuz7S/view?usp=sharing",
+		description:
+			"This lab investigates AC/DC coupling and RC circuits through precise oscilloscope and multimeter analysis. It examines the impact of coupling on signal integrity, derives and evaluates RC time constants, and analyzes the output waveform of a rectifier under different load conditions. Capacitor values were computed theoretically and validated via experimental measurements, ensuring alignment with expected circuit behavior.",
+	},
+	{
+		id: 11,
+		title:
+			"Electronics - Frequency Domain and Low-Pass Filter Design for Signal Conditioning With MATLAB",
+		pdfUrl:
+			"https://drive.google.com/file/d/1kyR0rs1kNZ0RVn7uS6xV7z4L2NTxeTwu/view?usp=sharing",
+		description:
+			"In this lab, we explored the frequency content of various signals using both time and frequency domain analysis. Key measurements such as peak-to-peak voltage, RMS voltage, and signal frequency were determined through power spectral density plots and Fourier analysis. We designed and tested a low-pass filter circuit, recording the effects on signal attenuation as frequency increased, confirming theoretical corner frequency behavior. Experimental results showed how signal filtering and spectral analysis can be used to condition signals in practical applications. The lab also involved assessing the filter's roll-off rate, confirming a 20 dB per decade decline past the cutoff frequency.",
+	},
+	{
+		id: 12,
+		title:
+			"Electronics - Zener Diodes, DC-DC Conversion, Linear Regulation, and Power Switching Using MATLAB",
+		pdfUrl:
+			"https://drive.google.com/file/d/16wBSpIKbWWutfrI0dLli_Uu1OEhROWUy/view?usp=sharing",
+		description:
+			"The experiments focused on evaluating Zener diode behavior under varying input voltages, analyzing a DC-DC converter's performance, assessing the stability of a linear power regulator, and examining transistor-based power switching. Key findings include the identification of a Zener diode breakdown voltage of 5.56 V, DC-DC conversion efficiency affected by load resistance, linear regulator efficiency variations with different resistive loads, and the switching characteristics of MOSFETs. The efficiency of power regulation techniques was quantified, revealing significant differences between linear and DC-DC methods.",
 	},
 ];
 
