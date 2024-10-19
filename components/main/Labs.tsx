@@ -111,8 +111,25 @@ const labReports: LabReport[] = [
 		description:
 			"The experiments focused on evaluating Zener diode behavior under varying input voltages, analyzing a DC-DC converter's performance, assessing the stability of a linear power regulator, and examining transistor-based power switching. Key findings include the identification of a Zener diode breakdown voltage of 5.56 V, DC-DC conversion efficiency affected by load resistance, linear regulator efficiency variations with different resistive loads, and the switching characteristics of MOSFETs. The efficiency of power regulation techniques was quantified, revealing significant differences between linear and DC-DC methods.",
 	},
+	{
+		id: 12,
+		title:
+			"Electronics - Operational Amplifiers, Vibrating Beam Dynamics, and Accelerometer Signal Conditioning",
+		pdfUrl:
+			"https://drive.google.com/file/d/1Tr1g2yq8rb-GL9YMeZYXokxhYZK-zKVd/view?usp=sharing",
+		description:
+			"The study explored the gain and limitations of inverting, buffer and summing amplifiers. The vibrating beam experiment revealed a frequency-dependent damping effect, with higher frequencies at shorter beam lengths. Accelerometer signal conditioning was implemented to enhance voltage output stability, using an operational amplifier to attenuate and fine-tune the signal for accurate vibration measurements. The results demonstrate practical applications of amplifiers in signal processing and vibration analysis.",
+	},
+	{
+		id: 13,
+		title:
+			"Electronics - Quantization, Sampling, and Digital Signal Processing Using MATLAB and Arduino Due",
+		pdfUrl:
+			"https://drive.google.com/file/d/1fT8IF62jaI4w8QXKr8ogW9Gt4Rlayt7f/view?usp=sharing",
+		description:
+			"Quantization experiments compared 4-bit, 8-bit, and 12-bit resolutions, revealing visible quantization effects at lower bit levels and higher resolution with increased bit depth. Sampling frequency tests demonstrated aliasing at certain frequencies, emphasizing the importance of adhering to the Nyquist criterion. Computational speed analysis compared an Arduino Due and MATLAB, highlighting significant performance differences due to processor speed and algorithm complexity, with MATLAB completing tasks much faster. The results underscore the practical challenges and considerations in digital signal processing applications.",
+	},
 ];
-
 const Labs: React.FC = () => {
 	return (
 		<div className="flex flex-col items-center justify-center w-full py-10 pb-56">
