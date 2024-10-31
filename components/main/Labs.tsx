@@ -167,7 +167,7 @@ const Labs: React.FC = () => {
 							<span className="text-center text-white">{report.title}</span>
 						</a>
 						{/* Tooltip Popup */}
-						<div className="absolute bottom-full mb-4 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10 w-screen max-w-2xl">
+						<div className="absolute bottom-full mb-4 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-10 w-screen max-w-md">
 							<div className="bg-gray-800 text-white text-sm md:text-base rounded-lg p-6 shadow-lg">
 								<p className="whitespace-pre-wrap break-words">
 									{report.description}
