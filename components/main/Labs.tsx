@@ -144,6 +144,14 @@ const labReports: LabReport[] = [
 			"https://drive.google.com/file/d/1yg4i8lk3hg2A600hnHq-OEpPRduZ2oMx/view?usp=drive_link",
 		description:
 			"Investigated serial communication protocols and Arduino analog-to-digital (ADC) conversions. Different parity configurations and baud rates were assessed for their effects on signal transmission. Notable findings include variations in character representation based on parity settings and the influence of baud rate on transmission speed. The Arduino ADC's response to voltage inputs was evaluated, revealing insights into effective voltage resolution and sampling rates. MATLAB integration indicated a maximum effective sampling frequency of 80 Hz, with aliasing observed at lower frequencies due to communication lag.",
+	},{
+		id: 16,
+		title:
+			"Electronics - Analysis of Combinatorial and Sequential Logic Circuits with Frequency Measurement Techniques",
+		pdfUrl:
+			"https://drive.google.com/file/d/14v_853S1OTU4b9NBC--x6-Iy1bvNz53z/view?usp=sharing",
+		description:
+			"Examined logic circuits through simulations and practical tests using Multisim, Arduino Due, and BASYS 3 FPGA. It covers combinatorial gates (e.g., OR, AND, XOR) and synchronous vs. asynchronous counters. The BASYS 3 outperforms the Arduino Due in high-frequency measurements due to better processing and higher clock speeds.",
 	}
 ];
 const Labs: React.FC = () => {
