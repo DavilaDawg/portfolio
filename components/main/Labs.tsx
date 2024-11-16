@@ -147,11 +147,19 @@ const labReports: LabReport[] = [
 	},{
 		id: 16,
 		title:
-			"Electronics - Analysis of Combinatorial and Sequential Logic Circuits with Frequency Measurement Techniques",
+			"Electronics - Combinatorial and Sequential Logic Circuits with Frequency Measurement Techniques Using Multisim",
 		pdfUrl:
 			"https://drive.google.com/file/d/14v_853S1OTU4b9NBC--x6-Iy1bvNz53z/view?usp=sharing",
 		description:
 			"Examined logic circuits through simulations and practical tests using Multisim, Arduino Due, and BASYS 3 FPGA. It covers combinatorial gates (e.g., OR, AND, XOR) and synchronous vs. asynchronous counters. The BASYS 3 outperforms the Arduino Due in high-frequency measurements due to better processing and higher clock speeds.",
+	},{
+		id: 17,
+		title:
+			"Electronics - Frequency Modulation and Filtering in Signal Processing Using MATLAB",
+		pdfUrl:
+			"https://drive.google.com/file/d/1R_mLG752Gk1hfgZgPKUl_MvbnPUJJjpq/view?usp=sharing",
+		description:
+			"This report examines signal processing techniques, including mixers, filters, and modulation. Mixers demonstrated harmonic generation and frequency translation, while filters effectively isolated desired frequencies. AM showed sensitivity to noise, whereas FM proved more robust, maintaining signal integrity. MATLAB simulations highlighted FM's noise resistance, reinforcing its advantages for modern communication systems.",
 	}
 ];
 const Labs: React.FC = () => {
