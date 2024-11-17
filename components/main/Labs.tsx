@@ -192,7 +192,7 @@ const Labs: React.FC = () => {
 				{labReports.map((report) => (
 					<div
 						key={report.id}
-						className="relative flex flex-col items-center p-6 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition-all duration-300"
+						className="relative flex flex-col items-center p-6 bg-white bg-opacity-10 rounded-lg hover:bg-opacity-20 transition-all duration-300 group"
 					>
 						<a
 							href={report.pdfUrl}
@@ -210,7 +210,7 @@ const Labs: React.FC = () => {
 							<span className="text-center text-white">{report.title}</span>
 						</a>
 						{/* Tooltip Popup */}
-						<div className="absolute bottom-[-80px] left-1/2 transform -translate-x-1/2 w-[95%] bg-black bg-opacity-70 text-white text-sm md:text-base p-2 rounded-lg opacity-0 transition-opacity duration-300 hover:opacity-100 pointer-events-none">
+						<div className="absolute bottom-[-80px] left-1/2 transform -translate-x-1/2 w-[95%] bg-black bg-opacity-70 text-white text-sm md:text-base p-2 rounded-lg opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none">
 							<p className="whitespace-pre-wrap break-words text-center">
 								{report.description}
 							</p>
