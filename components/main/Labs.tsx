@@ -179,7 +179,16 @@ const labReports: LabReport[] = [
 		description:
 			"This report examines signal processing techniques, including mixers, filters, and modulation. Mixers demonstrated harmonic generation and frequency translation, while filters effectively isolated desired frequencies. AM showed sensitivity to noise, whereas FM proved more robust, maintaining signal integrity. MATLAB simulations highlighted FM's noise resistance, reinforcing its advantages for modern communication systems.",
 		imageUrl: "/lab18.png",
-		}
+		},{
+			id: 19,
+			title:
+				"Experimental and Computational Analysis of Specific Heat in Calorimeter Systems for Material Identification using MATLAB",
+			pdfUrl:
+				"https://drive.google.com/file/d/11Lnh24OMjcf2ejmh--t7Vl7JPa0j_5Zh/view?usp=sharing",
+			description:
+				"This project focused on calculating the specific heat of a given calorimeter and its associated error to identify the material within an assigned sample. The process involved using experimental temperature data and MATLAB for least squares estimation to compare results against known material values. Key assumptions included a constant initial room temperature and an adiabatic system to minimize heat loss. Various error derivations and alternative calculation approaches were considered, emphasizing thorough methodology in determining precise measurements for material identification.",
+			imageUrl: "/lab19.png",
+			}
 ];
 
 const Labs: React.FC = () => {
