@@ -29,10 +29,16 @@ const Projects = () => {
                     title="Hop"
                     description="An app using Docker images to deploy virtual machines, enabling real-time browser interactions for users. It ensures robust security with authentication and encryption, available on web and mobile."
                 />
+                 <ProjectCard
+                    src="/game.png"
+                    url="https://github.com/DavilaDawg/aliensVScows"
+                    title="Aliens vs. Cows: Python Game"
+                    description="A two player game where one player pilota the UFO in attempt to capture all the cows while avoiding obsticals in a limtted amount of time and the opponent attempts to heard cows away from the UFO until time runs out. "
+                />
             </div>
-            <Video/>
+
+            <Video/> 
         </div>
-        
     );
 };
 
