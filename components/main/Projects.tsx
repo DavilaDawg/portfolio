@@ -33,7 +33,7 @@ const Projects = () => {
                     src="/game.png"
                     url="https://github.com/DavilaDawg/aliensVScows"
                     title="Aliens vs. Cows: Python Game"
-                    description="A two player game where one player pilots the UFO in attempt to capture all the cows while avoiding obstacles in a limtted amount of time and the opponent attempts to heard cows away from the UFO until time runs out. "
+                    description="A two player game where one player pilots the UFO in attempt to capture all the cows while avoiding obstacles in a limited amount of time and the opponent attempts to herd cows away from the UFO until time runs out. "
                 />
             </div>
 
