@@ -41,6 +41,15 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab2.png",
 	},
 	{
+		id: 20,
+		title:
+			"Simulation of Aircraft Dynamics: Trim, Short Period, Phugoid, Dutch Roll, and Doublet Responses Using MATLAB",
+		pdfUrl:
+			"https://drive.google.com/file/d/1-EBkKE5FuDxYuOsFT40jpWpjuNoNNS0G/view?usp=sharing",
+		description:
+			"This lab investigates aircraft dynamics, focusing on three primary cases and doublet inputs to analyze longitudinal and lateral modes. Case 1 shows phugoid oscillations due to non-trim conditions with zero control inputs. Case 2 demonstrates steady flight with minimal oscillations from balanced controls. Case 3 transitions from Dutch roll and phugoid modes to an unstable spiral descent. Doublet input on the elevator excites short-period and phugoid modes, enabling estimates of natural frequencies and damping ratios.",
+		imageUrl: "/lab21.png",
+	}, {
 		id: 3,
 		title: "Aerospace Computing - Satellite Tracking Using C++",
 		pdfUrl:
