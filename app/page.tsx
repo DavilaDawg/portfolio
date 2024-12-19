@@ -25,9 +25,9 @@ export default function Home() {
         <section id="lab-reports">
           <Labs />
         </section>
-        <section id="contacts">
+        {/* <section id="contacts">
           <Contacts/>
-        </section>
+        </section> */}
       </div>
     </main>
   );
