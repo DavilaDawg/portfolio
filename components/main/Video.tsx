@@ -4,11 +4,11 @@ import type React from "react";
 
 const Video: React.FC = () => {
 	return (
-		<div className="flex flex-col items-center justify-center">
+		<div className="flex flex-col items-center justify-center py-28">
 			<h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
 				MVP Demo Videos
 			</h1>
-			<div className="flex flex-col md:flex-row gap-10 px-4 md:px-10 pb-10">
+			<div className="flex flex-col md:flex-row gap-10 px-4 md:px-10 ">
 				<div>
 					<iframe
 						width="400"

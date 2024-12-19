@@ -217,7 +217,7 @@ const labReports: LabReport[] = [
 
 const Labs: React.FC = () => {
 	return (
-		<div className="flex flex-col items-center justify-center w-full py-10 pb-56">
+		<div className="flex flex-col items-center justify-center w-full ">
 			<h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mb-10">
 				Lab Reports
 			</h1>

@@ -5,7 +5,8 @@ import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Labs from "@/components/main/Labs"
-import { Navbar } from "@/components/main/Navbar"; // Make sure to import the Navbar
+import Contacts from "@/components/main/Contacts";
+import { Navbar } from "@/components/main/Navbar"; 
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
         </section>
         <section id="lab-reports">
           <Labs />
+        </section>
+        <section id="contacts">
+          <Contacts/>
         </section>
       </div>
     </main>
