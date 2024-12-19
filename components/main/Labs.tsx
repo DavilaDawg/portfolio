@@ -49,14 +49,15 @@ const labReports: LabReport[] = [
 		description:
 			"This lab investigates aircraft dynamics, focusing on three primary cases and doublet inputs to analyze longitudinal and lateral modes. Case 1 shows phugoid oscillations due to non-trim conditions with zero control inputs. Case 2 demonstrates steady flight with minimal oscillations from balanced controls. Case 3 transitions from Dutch roll and phugoid modes to an unstable spiral descent. Doublet input on the elevator excites short-period and phugoid modes, enabling estimates of natural frequencies and damping ratios.",
 		imageUrl: "/lab21.png",
-	}, {
-		id: 3,
-		title: "Aerospace Computing - Satellite Tracking Using C++",
-		pdfUrl:
-			"https://drive.google.com/file/d/11_2r9IrR4zb3Kjg10ZCZDbRiC7JVgR90/view?usp=drive_link",
-		description: `This project simulates satellite orbits and ground station communication planning by calculating visibility windows over three days. Satellite positions are generated based on Earth's rotation, stored in "CBPosition.csv," and visibility is determined each minute using a masking angle. Results, saved as "Sat1Visibility.csv" and "Sat2Visibility.csv," indicate when satellites are visible (1) or not (0) from the ground station, providing essential data for optimizing coverage and communication schedules.`,
-		imageUrl: "/lab3.png",
-	},
+	}, 
+	//{
+	// 	id: 3,
+	// 	title: "Aerospace Computing - Satellite Tracking Using C++",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/11_2r9IrR4zb3Kjg10ZCZDbRiC7JVgR90/view?usp=drive_link",
+	// 	description: `This project simulates satellite orbits and ground station communication planning by calculating visibility windows over three days. Satellite positions are generated based on Earth's rotation, stored in "CBPosition.csv," and visibility is determined each minute using a masking angle. Results, saved as "Sat1Visibility.csv" and "Sat2Visibility.csv," indicate when satellites are visible (1) or not (0) from the ground station, providing essential data for optimizing coverage and communication schedules.`,
+	// 	imageUrl: "/lab3.png",
+	// },
 	{
 		id: 6,
 		title: "Design and Analysis of a Roller Coaster Pilot Simulator in MATLAB",
@@ -132,76 +133,76 @@ const labReports: LabReport[] = [
 	// 		"This lab investigates AC/DC coupling and RC circuits through precise oscilloscope and multimeter analysis. It examines the impact of coupling on signal integrity, derives and evaluates RC time constants, and analyzes the output waveform of a rectifier under different load conditions. Capacitor values were computed theoretically and validated via experimental measurements, ensuring alignment with expected circuit behavior.",
 	// 	imageUrl: "/lab11.png",
 	// },
-	{
-		id: 12,
-		title:
-			"Electronics - Frequency Domain and Low-Pass Filter Design for Signal Conditioning With MATLAB",
-		pdfUrl:
-			"https://drive.google.com/file/d/1kyR0rs1kNZ0RVn7uS6xV7z4L2NTxeTwu/view?usp=sharing",
-		description:
-			"In this lab, we explored the frequency content of various signals using both time and frequency domain analysis. Key measurements such as peak-to-peak voltage, RMS voltage, and signal frequency were determined through power spectral density plots and Fourier analysis. We designed and tested a low-pass filter circuit, recording the effects on signal attenuation as frequency increased, confirming theoretical corner frequency behavior. Experimental results showed how signal filtering and spectral analysis can be used to condition signals in practical applications. The lab also involved assessing the filter's roll-off rate, confirming a 20 dB per decade decline past the cutoff frequency.",
-		imageUrl: "/lab12.png",
-	},
-	{
-		id: 13,
-		title:
-			"Electronics - Zener Diodes, DC-DC Conversion, Linear Regulation, and Power Switching Using MATLAB",
-		pdfUrl:
-			"https://drive.google.com/file/d/16wBSpIKbWWutfrI0dLli_Uu1OEhROWUy/view?usp=sharing",
-		description:
-			"The experiments focused on evaluating Zener diode behavior under varying input voltages, analyzing a DC-DC converter's performance, assessing the stability of a linear power regulator, and examining transistor-based power switching. Key findings include the identification of a Zener diode breakdown voltage of 5.56 V, DC-DC conversion efficiency affected by load resistance, linear regulator efficiency variations with different resistive loads, and the switching characteristics of MOSFETs. The efficiency of power regulation techniques was quantified, revealing significant differences between linear and DC-DC methods.",
-		imageUrl: "/lab13.png",
-	},
-	{
-		id: 14,
-		title:
-			"Electronics - Operational Amplifiers, Vibrating Beam Dynamics, and Accelerometer Signal Conditioning",
-		pdfUrl:
-			"https://drive.google.com/file/d/1Tr1g2yq8rb-GL9YMeZYXokxhYZK-zKVd/view?usp=sharing",
-		description:
-			"The study explored the gain and limitations of inverting, buffer and summing amplifiers. The vibrating beam experiment revealed a frequency-dependent damping effect, with higher frequencies at shorter beam lengths. Accelerometer signal conditioning was implemented to enhance voltage output stability, using an operational amplifier to attenuate and fine-tune the signal for accurate vibration measurements. The results demonstrate practical applications of amplifiers in signal processing and vibration analysis.",
-		imageUrl: "/lab14.png",
-	},
-	{
-		id: 15,
-		title:
-			"Electronics - Quantization, Sampling, and Digital Signal Processing Using MATLAB and Arduino Due",
-		pdfUrl:
-			"https://drive.google.com/file/d/1fT8IF62jaI4w8QXKr8ogW9Gt4Rlayt7f/view?usp=sharing",
-		description:
-			"Quantization experiments compared 4-bit, 8-bit, and 12-bit resolutions, revealing visible quantization effects at lower bit levels and higher resolution with increased bit depth. Sampling frequency tests demonstrated aliasing at certain frequencies, emphasizing the importance of adhering to the Nyquist criterion. Computational speed analysis compared an Arduino Due and MATLAB, highlighting significant performance differences due to processor speed and algorithm complexity, with MATLAB completing tasks much faster. The results underscore the practical challenges and considerations in digital signal processing applications.",
-		imageUrl: "/lab15.png",
-	},
-	{
-		id: 16,
-		title:
-			"Electronics - Serial Port and Arduino ADC Communication Interfaces for Digital Signal Processing Using MATLAB",
-		pdfUrl:
-			"https://drive.google.com/file/d/1yg4i8lk3hg2A600hnHq-OEpPRduZ2oMx/view?usp=drive_link",
-		description:
-			"Investigated serial communication protocols and Arduino analog-to-digital (ADC) conversions. Different parity configurations and baud rates were assessed for their effects on signal transmission. Notable findings include variations in character representation based on parity settings and the influence of baud rate on transmission speed. The Arduino ADC's response to voltage inputs was evaluated, revealing insights into effective voltage resolution and sampling rates. MATLAB integration indicated a maximum effective sampling frequency of 80 Hz, with aliasing observed at lower frequencies due to communication lag.",
-		imageUrl: "/lab16.png",
-	},
-	{
-		id: 17,
-		title:
-			"Electronics - Combinatorial and Sequential Logic Circuits with Frequency Measurement Techniques Using Multisim",
-		pdfUrl:
-			"https://drive.google.com/file/d/14v_853S1OTU4b9NBC--x6-Iy1bvNz53z/view?usp=sharing",
-		description:
-			"Examined logic circuits through simulations and practical tests using Multisim, Arduino Due, and BASYS 3 FPGA. It covers combinatorial gates (e.g., OR, AND, XOR) and synchronous vs. asynchronous counters. The BASYS 3 outperforms the Arduino Due in high-frequency measurements due to better processing and higher clock speeds.",
-		imageUrl: "/lab17.png",
-	},
-	{
-		id: 18,
-		title:
-			"Electronics - Frequency Modulation and Filtering in Signal Processing Using MATLAB",
-		pdfUrl:
-			"https://drive.google.com/file/d/1R_mLG752Gk1hfgZgPKUl_MvbnPUJJjpq/view?usp=sharing",
-		description:
-			"This report examines signal processing techniques, including mixers, filters, and modulation. Mixers demonstrated harmonic generation and frequency translation, while filters effectively isolated desired frequencies. AM showed sensitivity to noise, whereas FM proved more robust, maintaining signal integrity. MATLAB simulations highlighted FM's noise resistance, reinforcing its advantages for modern communication systems.",
-		imageUrl: "/lab18.png",
-	},
+	// {
+	// 	id: 12,
+	// 	title:
+	// 		"Electronics - Frequency Domain and Low-Pass Filter Design for Signal Conditioning With MATLAB",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1kyR0rs1kNZ0RVn7uS6xV7z4L2NTxeTwu/view?usp=sharing",
+	// 	description:
+	// 		"In this lab, we explored the frequency content of various signals using both time and frequency domain analysis. Key measurements such as peak-to-peak voltage, RMS voltage, and signal frequency were determined through power spectral density plots and Fourier analysis. We designed and tested a low-pass filter circuit, recording the effects on signal attenuation as frequency increased, confirming theoretical corner frequency behavior. Experimental results showed how signal filtering and spectral analysis can be used to condition signals in practical applications. The lab also involved assessing the filter's roll-off rate, confirming a 20 dB per decade decline past the cutoff frequency.",
+	// 	imageUrl: "/lab12.png",
+	// },
+	// {
+	// 	id: 13,
+	// 	title:
+	// 		"Electronics - Zener Diodes, DC-DC Conversion, Linear Regulation, and Power Switching Using MATLAB",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/16wBSpIKbWWutfrI0dLli_Uu1OEhROWUy/view?usp=sharing",
+	// 	description:
+	// 		"The experiments focused on evaluating Zener diode behavior under varying input voltages, analyzing a DC-DC converter's performance, assessing the stability of a linear power regulator, and examining transistor-based power switching. Key findings include the identification of a Zener diode breakdown voltage of 5.56 V, DC-DC conversion efficiency affected by load resistance, linear regulator efficiency variations with different resistive loads, and the switching characteristics of MOSFETs. The efficiency of power regulation techniques was quantified, revealing significant differences between linear and DC-DC methods.",
+	// 	imageUrl: "/lab13.png",
+	// },
+	// {
+	// 	id: 14,
+	// 	title:
+	// 		"Electronics - Operational Amplifiers, Vibrating Beam Dynamics, and Accelerometer Signal Conditioning",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1Tr1g2yq8rb-GL9YMeZYXokxhYZK-zKVd/view?usp=sharing",
+	// 	description:
+	// 		"The study explored the gain and limitations of inverting, buffer and summing amplifiers. The vibrating beam experiment revealed a frequency-dependent damping effect, with higher frequencies at shorter beam lengths. Accelerometer signal conditioning was implemented to enhance voltage output stability, using an operational amplifier to attenuate and fine-tune the signal for accurate vibration measurements. The results demonstrate practical applications of amplifiers in signal processing and vibration analysis.",
+	// 	imageUrl: "/lab14.png",
+	// },
+	// {
+	// 	id: 15,
+	// 	title:
+	// 		"Electronics - Quantization, Sampling, and Digital Signal Processing Using MATLAB and Arduino Due",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1fT8IF62jaI4w8QXKr8ogW9Gt4Rlayt7f/view?usp=sharing",
+	// 	description:
+	// 		"Quantization experiments compared 4-bit, 8-bit, and 12-bit resolutions, revealing visible quantization effects at lower bit levels and higher resolution with increased bit depth. Sampling frequency tests demonstrated aliasing at certain frequencies, emphasizing the importance of adhering to the Nyquist criterion. Computational speed analysis compared an Arduino Due and MATLAB, highlighting significant performance differences due to processor speed and algorithm complexity, with MATLAB completing tasks much faster. The results underscore the practical challenges and considerations in digital signal processing applications.",
+	// 	imageUrl: "/lab15.png",
+	// },
+	// {
+	// 	id: 16,
+	// 	title:
+	// 		"Electronics - Serial Port and Arduino ADC Communication Interfaces for Digital Signal Processing Using MATLAB",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1yg4i8lk3hg2A600hnHq-OEpPRduZ2oMx/view?usp=drive_link",
+	// 	description:
+	// 		"Investigated serial communication protocols and Arduino analog-to-digital (ADC) conversions. Different parity configurations and baud rates were assessed for their effects on signal transmission. Notable findings include variations in character representation based on parity settings and the influence of baud rate on transmission speed. The Arduino ADC's response to voltage inputs was evaluated, revealing insights into effective voltage resolution and sampling rates. MATLAB integration indicated a maximum effective sampling frequency of 80 Hz, with aliasing observed at lower frequencies due to communication lag.",
+	// 	imageUrl: "/lab16.png",
+	// },
+	// {
+	// 	id: 17,
+	// 	title:
+	// 		"Electronics - Combinatorial and Sequential Logic Circuits with Frequency Measurement Techniques Using Multisim",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/14v_853S1OTU4b9NBC--x6-Iy1bvNz53z/view?usp=sharing",
+	// 	description:
+	// 		"Examined logic circuits through simulations and practical tests using Multisim, Arduino Due, and BASYS 3 FPGA. It covers combinatorial gates (e.g., OR, AND, XOR) and synchronous vs. asynchronous counters. The BASYS 3 outperforms the Arduino Due in high-frequency measurements due to better processing and higher clock speeds.",
+	// 	imageUrl: "/lab17.png",
+	// },
+	// {
+	// 	id: 18,
+	// 	title:
+	// 		"Electronics - Frequency Modulation and Filtering in Signal Processing Using MATLAB",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1R_mLG752Gk1hfgZgPKUl_MvbnPUJJjpq/view?usp=sharing",
+	// 	description:
+	// 		"This report examines signal processing techniques, including mixers, filters, and modulation. Mixers demonstrated harmonic generation and frequency translation, while filters effectively isolated desired frequencies. AM showed sensitivity to noise, whereas FM proved more robust, maintaining signal integrity. MATLAB simulations highlighted FM's noise resistance, reinforcing its advantages for modern communication systems.",
+	// 	imageUrl: "/lab18.png",
+	// },
 	{
 		id: 19,
 		title:
