@@ -112,26 +112,26 @@ const labReports: LabReport[] = [
 			"This lab explores image manipulation and compression using MATLAB through matrix operations. Key tasks include loading and converting images, adjusting exposure, altering colors, and performing transformations like shifting, flipping, and transposing. The lab also demonstrates image compression using the Discrete Sine Transform (DST), analyzing how different compression ratios affect image quality. Results highlight the relationship between matrix manipulations and storage efficiency. The report includes MATLAB code and explanations for each operation.",
 		imageUrl: "/lab5.png",
 	},
-	{
-		id: 10,
-		title:
-			"Electronics - Voltage Dividers, Grounding, and Signal Conditioning Analysis",
-		pdfUrl:
-			"https://drive.google.com/file/d/1kBvODwrhuVy8ABsYjCYZfHRqbJfOAAd3/view?usp=sharing",
-		description:
-			"This lab covers experiments on voltage dividers, grounding, equivalent circuits, and accelerometer measurements. Key findings include the impact of grounding on voltage measurements and the importance of proper signal conditioning for accurate accelerometer data. The results highlight the effects of impedance and the need for careful circuit analysis to achieve precise measurements.",
-		imageUrl: "/lab10.png",
-	},
-	{
-		id: 11,
-		title:
-			"Electronics - AC/DC Coupling, RC Circuits, and Power Supply Analysis",
-		pdfUrl:
-			"https://drive.google.com/file/d/1HDg7Lg4EPGiPzFwo8S6n59vJT5AOuz7S/view?usp=sharing",
-		description:
-			"This lab investigates AC/DC coupling and RC circuits through precise oscilloscope and multimeter analysis. It examines the impact of coupling on signal integrity, derives and evaluates RC time constants, and analyzes the output waveform of a rectifier under different load conditions. Capacitor values were computed theoretically and validated via experimental measurements, ensuring alignment with expected circuit behavior.",
-		imageUrl: "/lab11.png",
-	},
+	// {
+	// 	id: 10,
+	// 	title:
+	// 		"Electronics - Voltage Dividers, Grounding, and Signal Conditioning Analysis",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1kBvODwrhuVy8ABsYjCYZfHRqbJfOAAd3/view?usp=sharing",
+	// 	description:
+	// 		"This lab covers experiments on voltage dividers, grounding, equivalent circuits, and accelerometer measurements. Key findings include the impact of grounding on voltage measurements and the importance of proper signal conditioning for accurate accelerometer data. The results highlight the effects of impedance and the need for careful circuit analysis to achieve precise measurements.",
+	// 	imageUrl: "/lab10.png",
+	// },
+	// {
+	// 	id: 11,
+	// 	title:
+	// 		"Electronics - AC/DC Coupling, RC Circuits, and Power Supply Analysis",
+	// 	pdfUrl:
+	// 		"https://drive.google.com/file/d/1HDg7Lg4EPGiPzFwo8S6n59vJT5AOuz7S/view?usp=sharing",
+	// 	description:
+	// 		"This lab investigates AC/DC coupling and RC circuits through precise oscilloscope and multimeter analysis. It examines the impact of coupling on signal integrity, derives and evaluates RC time constants, and analyzes the output waveform of a rectifier under different load conditions. Capacitor values were computed theoretically and validated via experimental measurements, ensuring alignment with expected circuit behavior.",
+	// 	imageUrl: "/lab11.png",
+	// },
 	{
 		id: 12,
 		title:
