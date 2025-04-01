@@ -14,7 +14,7 @@ const labReports: LabReport[] = [
 	{
 		id: 20,
 		title:
-			"Quadrotor Simulation and Control: Analysis of Nonlinear Dynamics, Linearization, and Feedback Stabilization using MATLAB",
+			"Quadrotor Simulation and Control: Analysis of Nonlinear Dynamics, Linearization, and Feedback Stabilization",
 		pdfUrl:
 			"https://drive.google.com/file/d/1ZQtTOP-5BTHcDe5EANnFDlscscfTMx7S/view?usp=sharing",
 		description:
@@ -24,7 +24,7 @@ const labReports: LabReport[] = [
 	{
 		id: 1,
 		title:
-			"Wind Tunnel Aerodynamics and Structural Analysis of a Clark Y14 Airfoil Using MATLAB",
+			"Wind Tunnel Aerodynamics and Structural Analysis of a Clark Y14 Airfoil",
 		pdfUrl:
 			"https://drive.google.com/file/d/1lUNbakVRxSlUk1uewpZLcr_4KQ-Y_uH0/view?usp=sharing",
 		description:
@@ -33,7 +33,7 @@ const labReports: LabReport[] = [
 	},
 	{
 		id: 2,
-		title: "Analysis of Gyroscopic Systems and Feedback Control Using MATLAB",
+		title: "Analysis of Gyroscopic Systems and Feedback Control",
 		pdfUrl:
 			"https://drive.google.com/file/d/19QLgBbSgEiXsrRyPfEkJ8-CeDiVqJ4YK/view?usp=sharing",
 		description:
@@ -43,7 +43,7 @@ const labReports: LabReport[] = [
 	{
 		id: 20,
 		title:
-			"Simulation of Aircraft Dynamics: Trim, Short Period, Phugoid, Dutch Roll, and Doublet Responses Using MATLAB",
+			"Simulation of Aircraft Dynamics: Trim, Short Period, Phugoid, Dutch Roll, and Doublet Responses",
 		pdfUrl:
 			"https://drive.google.com/file/d/1-EBkKE5FuDxYuOsFT40jpWpjuNoNNS0G/view?usp=sharing",
 		description:
@@ -52,7 +52,7 @@ const labReports: LabReport[] = [
 	}, 
 	{
 		id: 5,
-		title: "Structural Analysis of Beam Deflection and Material Properties Using MATLAB",
+		title: "Structural Analysis of Beam Deflection and Material Properties",
 		pdfUrl:
 			"https://drive.google.com/file/d/1zRVq6K1SkgJks-K1LdzMrZXvZIgSpv--/view?usp=sharing",
 		description:
@@ -61,7 +61,7 @@ const labReports: LabReport[] = [
 	},
 	{
 		id: 6,
-		title: "Design and Analysis of a Roller Coaster Pilot Simulator in MATLAB",
+		title: "Design and Analysis of a Roller Coaster Pilot Simulator",
 		pdfUrl:
 			"https://drive.google.com/file/d/1YvuyX_h8m3uozVSqL3FxaPJx9k9k2fkr/view?usp=sharing",
 		description:
@@ -70,7 +70,7 @@ const labReports: LabReport[] = [
 	},
 	{
 		id: 7,
-		title: "Feedback Control for Locomotive Crank Using MATLAB",
+		title: "Feedback Control for Locomotive Crank",
 		pdfUrl:
 			"https://drive.google.com/file/d/1X3jI4_MxRCXkJPU6ikrMu61BQwkCwIZn/view?usp=sharing",
 		description:
@@ -79,7 +79,7 @@ const labReports: LabReport[] = [
 	},
 	{
 		id: 8,
-		title: "Simulating Dynamics and Equations of Motion Using MATLAB",
+		title: "Simulating Dynamics and Equations of Motion",
 		pdfUrl:
 			"https://drive.google.com/file/d/1EaHhRWPbbD-HHWJ0Mdfaf13qFYftrg3W/view?usp=sharing",
 		description:
@@ -89,7 +89,7 @@ const labReports: LabReport[] = [
 	{
 		id: 9,
 		title:
-			"Motion Capture and Euler Angle Dynamics Experiment and Modeling In MATLAB",
+			"Motion Capture and Euler Angle Dynamics Experiment and Modeling",
 		pdfUrl:
 			"https://drive.google.com/file/d/1bY4z7khLwzMo1iyEka5Y65l-SP2B0_Lx/view?usp=sharing",
 		description:
@@ -98,7 +98,7 @@ const labReports: LabReport[] = [
 	},
 	{
 		id: 4,
-		title: "Mortgage Analysis Using Differential Equations and MATLAB",
+		title: "Mortgage Analysis Using Differential Equations",
 		pdfUrl:
 			"https://drive.google.com/file/d/1JVLXOXqFV_-Fiu4W73ymAC-ZNiFrAmlR/view?usp=sharing",
 		description:
@@ -107,7 +107,7 @@ const labReports: LabReport[] = [
 	},
 	{
 		id: 5,
-		title: "Image Manipulation and Compression Using MATLAB",
+		title: "Image Manipulation and Compression",
 		pdfUrl:
 			"https://drive.google.com/file/d/1tVfQOrHFt-Wj2Bl_uE4Mg9Z_YwfbTl5b/view?usp=drive_link",
 		description:
