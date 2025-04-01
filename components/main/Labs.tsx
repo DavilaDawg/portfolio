@@ -50,14 +50,15 @@ const labReports: LabReport[] = [
 			"This lab investigates aircraft dynamics, focusing on three primary cases and doublet inputs to analyze longitudinal and lateral modes. Case 1 shows phugoid oscillations due to non-trim conditions with zero control inputs. Case 2 demonstrates steady flight with minimal oscillations from balanced controls. Case 3 transitions from Dutch roll and phugoid modes to an unstable spiral descent. Doublet input on the elevator excites short-period and phugoid modes, enabling estimates of natural frequencies and damping ratios.",
 		imageUrl: "/lab21.png",
 	}, 
-	//{
-	// 	id: 3,
-	// 	title: "Aerospace Computing - Satellite Tracking Using C++",
-	// 	pdfUrl:
-	// 		"https://drive.google.com/file/d/11_2r9IrR4zb3Kjg10ZCZDbRiC7JVgR90/view?usp=drive_link",
-	// 	description: `This project simulates satellite orbits and ground station communication planning by calculating visibility windows over three days. Satellite positions are generated based on Earth's rotation, stored in "CBPosition.csv," and visibility is determined each minute using a masking angle. Results, saved as "Sat1Visibility.csv" and "Sat2Visibility.csv," indicate when satellites are visible (1) or not (0) from the ground station, providing essential data for optimizing coverage and communication schedules.`,
-	// 	imageUrl: "/lab3.png",
-	// },
+	{
+		id: 5,
+		title: "Structural Analysis of Beam Deflection and Material Properties Using MATLAB",
+		pdfUrl:
+			"https://drive.google.com/file/d/1zRVq6K1SkgJks-K1LdzMrZXvZIgSpv--/view?usp=sharing",
+		description:
+			"This lab examines beam deflection under various loads to analyze material stiffness and structural behavior. Measurements are compared to theoretical predictions, providing insight into load distribution and engineering applications.",
+		imageUrl: "/lab5.png",
+	},
 	{
 		id: 6,
 		title: "Design and Analysis of a Roller Coaster Pilot Simulator in MATLAB",
@@ -101,7 +102,7 @@ const labReports: LabReport[] = [
 		pdfUrl:
 			"https://drive.google.com/file/d/1JVLXOXqFV_-Fiu4W73ymAC-ZNiFrAmlR/view?usp=sharing",
 		description:
-			"This lab used MATLAB to apply Differential Equations in comparing mortgage plans for a $750,000 loan, including a 10-year fixed mortgage at 3%, a 30-year fixed mortgage at 5%, and a variable rate. MATLAB was used to calculate monthly payments, total costs, and to implement Euler’s method for approximating loan amounts over time, with smaller timesteps improving accuracy. The 10-year plan had higher payments but a lower total cost, while the 30-year plan had lower payments and higher costs. Larger monthly payments were shown to reduce total interest, while adjustable rates provided short-term savings at the expense of long-term costs.",
+			"This lab applied Differential Equations to compare mortgage plans for a $750,000 loan, including a 10-year fixed mortgage at 3%, a 30-year fixed mortgage at 5%, and a variable rate. MATLAB was used to calculate monthly payments, total costs, and to implement Euler’s method for approximating loan amounts over time, with smaller timesteps improving accuracy. The 10-year plan had higher payments but a lower total cost, while the 30-year plan had lower payments and higher costs. Larger monthly payments were shown to reduce total interest, while adjustable rates provided short-term savings at the expense of long-term costs.",
 		imageUrl: "/lab4.png",
 	},
 	{
@@ -112,7 +113,16 @@ const labReports: LabReport[] = [
 		description:
 			"This lab explores image manipulation and compression using MATLAB through matrix operations. Key tasks include loading and converting images, adjusting exposure, altering colors, and performing transformations like shifting, flipping, and transposing. The lab also demonstrates image compression using the Discrete Sine Transform (DST), analyzing how different compression ratios affect image quality. Results highlight the relationship between matrix manipulations and storage efficiency. The report includes MATLAB code and explanations for each operation.",
 		imageUrl: "/lab5.png",
+	}, 
+	{
+		id: 3,
+		title: "Aerospace Computing - Satellite Tracking Using C++",
+		pdfUrl:
+			"https://drive.google.com/file/d/11_2r9IrR4zb3Kjg10ZCZDbRiC7JVgR90/view?usp=drive_link",
+		description: `This project simulates satellite orbits and ground station communication planning by calculating visibility windows over three days. Satellite positions are generated based on Earth's rotation, stored in "CBPosition.csv," and visibility is determined each minute using a masking angle. Results, saved as "Sat1Visibility.csv" and "Sat2Visibility.csv," indicate when satellites are visible (1) or not (0) from the ground station, providing essential data for optimizing coverage and communication schedules.`,
+		imageUrl: "/lab3.png",
 	},
+
 	// {
 	// 	id: 10,
 	// 	title:
