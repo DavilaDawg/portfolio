@@ -57,7 +57,7 @@ const labReports: LabReport[] = [
 			"https://drive.google.com/file/d/1zRVq6K1SkgJks-K1LdzMrZXvZIgSpv--/view?usp=sharing",
 		description:
 			"This lab examines beam deflection under various loads to analyze material stiffness and structural behavior. Measurements are compared to theoretical predictions, providing insight into load distribution and engineering applications.",
-		imageUrl: "/lab5.png",
+		imageUrl: "/lab22.png",
 	},
 	{
 		id: 6,
