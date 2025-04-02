@@ -44,8 +44,8 @@ const Projects = () => {
                 <ProjectCard
                     src="/youtubeProfile.png"
                     url="https://www.youtube.com/@Theaerotutor/videos"
-                    title="Educational Youtube Channel"
-                    description="My channel is dedicated to helping aerospace engineering students master complex concepts through clear explanations and in depth practice problems. Covering electronics, orbital mechanics, structures, aerodynamics, thermodynamics, attitude dynamics, and aircraft dynamics, I break down challenging topics into manageable steps. My subscribers gain confidence with a deeper understanding of key principles."
+                    title="Youtube Channel"
+                    description="My channel is dedicated to helping aerospace engineering students master complex concepts. Covering electronics, orbital mechanics, structures, aerodynamics, thermodynamics, attitude dynamics, and aircraft dynamics, I break down challenging topics into manageable steps. My subscribers gain confidence with a deeper understanding of key principles."
                 />
             </div>
 
