@@ -29,6 +29,8 @@ const Projects = () => {
                     title="Hop"
                     description="An app using Docker images to deploy virtual machines, enabling real-time browser interactions for users. It ensures robust security with authentication and encryption, available on web and mobile."
                 />
+            </div>
+            <div className=" flex flex-col md:flex-row gap-10 px-10 ">
                  <ProjectCard
                     src="/game.png"
                     url="https://github.com/DavilaDawg/aliensVScows"
