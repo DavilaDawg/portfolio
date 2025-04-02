@@ -41,6 +41,12 @@ const Projects = () => {
                     title="Mars Exploration: Python Game"
                     description="Players take on the role of pioneers building a sustainable civilization on Mars. They can mine valuable resources, conduct research, and unlock technologies to overcome Mars' harsh environment. As they progress, they will expand colonies and tackle challenges."
                 />
+                <ProjectCard
+                    src="/youtubeProfile.png"
+                    url="https://www.youtube.com/@Theaerotutor/videos"
+                    title="Educational Youtube Channel"
+                    description="My channel is dedicated to helping aerospace engineering students master complex concepts through clear explanations and in depth practice problems. Covering electronics, orbital mechanics, structures, aerodynamics, thermodynamics, attitude dynamics, and aircraft dynamics, I break down challenging topics into manageable steps. My subscribers gain confidence with a deeper understanding of key principles."
+                />
             </div>
 
             <Video/> 
