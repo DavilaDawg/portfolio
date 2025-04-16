@@ -97,6 +97,13 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab9.png",
 	},
 	{
+		id:10,
+		title: "Heat Conduction in Solids: Experimental and Analytical Investigation of Thermal Diffusivity",
+		pdfUrl: "https://drive.google.com/file/d/1qMNLWwAWhZ4ew7Vqykb1imGtGjUvpy8q/view?usp=drive_link",
+		description: "This lab analyzes heat conduction in aluminum, brass, and steel using experimental data and MATLAB models. We compared steady-state and transient responses, applied Fourier series solutions, and optimized thermal diffusivity values to improve model accuracy. Results highlight the importance of material properties and initial conditions in thermal behavior.",
+		imageUrl: "/lab23.jpg",
+	},
+	{
 		id: 4,
 		title: "Mortgage Analysis Using Differential Equations",
 		pdfUrl:
