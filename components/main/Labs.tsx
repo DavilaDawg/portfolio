@@ -14,16 +14,6 @@ const labReports: LabReport[] = [
 	{
 		id: 1,
 		title:
-			"Performance of Airfoils and Finite Wings Using Vortex Panel and Lifting Line Methods",
-		pdfUrl:
-			"https://drive.google.com/file/d/10XWXHLNlDx_SvQP0YpqQDslp1duXC1O-/view?usp=sharing",
-		description:
-			"This lab investigates 2D and 3D aerodynamic properties of airfoils and wings using vortex panel methods and Prandtls lifting line theory. Analyzes the effects of airfoil geometry, taper ratio, and angle of attack on lift, drag, and thrust, and models the performance of a Cessna 180 aircraft under varying flight conditions.",
-		imageUrl: "/lab1.png",
-	},
-	{
-		id: 2,
-		title:
 			"Quadrotor Simulation and Control: Analysis of Nonlinear Dynamics, Linearization, and Feedback Stabilization",
 		pdfUrl:
 			"https://drive.google.com/file/d/1JbCLsoflwx6KWTSoVuOM6NJzTT6af8F4/view?usp=sharing",
@@ -32,7 +22,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab20.png",
 	},
 	{
-		id: 3,
+		id: 2,
 		title:
 			"Wind Tunnel Aerodynamics and Structural Analysis of a Clark Y14 Airfoil",
 		pdfUrl:
@@ -40,6 +30,16 @@ const labReports: LabReport[] = [
 		description:
 			"Analyzing the aerodynamic properties and structural loading of a Clark Y14 airfoil. Airspeed in a wind tunnel was calculated using pressure data from a Pitot-static tube, finding a maximum velocity of 18.82 m/s. Calculated the coefficients of lift and drag for different AoA, comparing results to NACA data, with deviations likely due to wind tunnel limitations. Performed structural analysis by calculating deflection, stress, and strain under different load distributions. Experimental deflection matched closely with numerical results for trapezoidal loading, while rectangular loading caused the most deflection",
 		imageUrl: "/img1.png",
+	},
+	{
+		id: 3,
+		title:
+			"Performance of Airfoils and Finite Wings Using Vortex Panel and Lifting Line Methods",
+		pdfUrl:
+			"https://drive.google.com/file/d/10XWXHLNlDx_SvQP0YpqQDslp1duXC1O-/view?usp=sharing",
+		description:
+			"This lab investigates 2D and 3D aerodynamic properties of airfoils and wings using vortex panel methods and Prandtls lifting line theory. Analyzes the effects of airfoil geometry, taper ratio, and angle of attack on lift, drag, and thrust, and models the performance of a Cessna 180 aircraft under varying flight conditions.",
+		imageUrl: "/lab1.png",
 	},
 	{
 		id: 4,
