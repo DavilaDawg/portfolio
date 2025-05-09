@@ -19,7 +19,7 @@ const labReports: LabReport[] = [
 			"https://drive.google.com/file/d/10XWXHLNlDx_SvQP0YpqQDslp1duXC1O-/view?usp=sharing",
 		description:
 			"This lab investigates 2D and 3D aerodynamic properties of airfoils and wings using vortex panel methods and Prandtls lifting line theory. Analyzes the effects of airfoil geometry, taper ratio, and angle of attack on lift, drag, and thrust, and models the performance of a Cessna 180 aircraft under varying flight conditions.",
-		imageUrl: "/lab24.png",
+		imageUrl: "/lab1.png",
 	},
 	{
 		id: 20,
