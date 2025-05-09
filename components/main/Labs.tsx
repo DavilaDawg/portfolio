@@ -12,7 +12,7 @@ interface LabReport {
 
 const labReports: LabReport[] = [
 	{
-		id: 23,
+		id: 1,
 		title:
 			"Performance of Airfoils and Finite Wings Using Vortex Panel and Lifting Line Methods",
 		pdfUrl:
@@ -22,7 +22,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab1.png",
 	},
 	{
-		id: 20,
+		id: 2,
 		title:
 			"Quadrotor Simulation and Control: Analysis of Nonlinear Dynamics, Linearization, and Feedback Stabilization",
 		pdfUrl:
@@ -32,7 +32,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab20.png",
 	},
 	{
-		id: 1,
+		id: 3,
 		title:
 			"Wind Tunnel Aerodynamics and Structural Analysis of a Clark Y14 Airfoil",
 		pdfUrl:
@@ -42,7 +42,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/img1.png",
 	},
 	{
-		id: 2,
+		id: 4,
 		title: "Analysis of Gyroscopic Systems and Feedback Control",
 		pdfUrl:
 			"https://drive.google.com/file/d/19QLgBbSgEiXsrRyPfEkJ8-CeDiVqJ4YK/view?usp=sharing",
@@ -51,7 +51,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab2.png",
 	},
 	{
-		id: 20,
+		id: 5,
 		title:
 			"Simulation of Aircraft Dynamics: Trim, Short Period, Phugoid, Dutch Roll, and Doublet Responses",
 		pdfUrl:
@@ -61,7 +61,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab21.png",
 	}, 
 	{
-		id: 5,
+		id: 6,
 		title: "Structural Analysis of Beam Deflection and Material Properties",
 		pdfUrl:
 			"https://drive.google.com/file/d/1zRVq6K1SkgJks-K1LdzMrZXvZIgSpv--/view?usp=sharing",
@@ -70,7 +70,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab22.png",
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Design and Analysis of a Roller Coaster Pilot Simulator",
 		pdfUrl:
 			"https://drive.google.com/file/d/1YvuyX_h8m3uozVSqL3FxaPJx9k9k2fkr/view?usp=sharing",
@@ -79,7 +79,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab6.png",
 	},
 	{
-		id: 7,
+		id: 8,
 		title: "Feedback Control for Locomotive Crank",
 		pdfUrl:
 			"https://drive.google.com/file/d/1X3jI4_MxRCXkJPU6ikrMu61BQwkCwIZn/view?usp=sharing",
@@ -88,7 +88,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab7.png",
 	},
 	{
-		id: 8,
+		id: 9,
 		title: "Simulating Dynamics and Equations of Motion",
 		pdfUrl:
 			"https://drive.google.com/file/d/1EaHhRWPbbD-HHWJ0Mdfaf13qFYftrg3W/view?usp=sharing",
@@ -97,7 +97,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab8.png",
 	},
 	{
-		id: 9,
+		id: 10,
 		title:
 			"Motion Capture and Euler Angle Dynamics Experiment and Modeling",
 		pdfUrl:
@@ -107,14 +107,14 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab9.png",
 	},
 	{
-		id:10,
+		id:11,
 		title: "Heat Conduction in Solids: Experimental and Analytical Investigation of Thermal Diffusivity",
 		pdfUrl: "https://drive.google.com/file/d/1qMNLWwAWhZ4ew7Vqykb1imGtGjUvpy8q/view?usp=drive_link",
 		description: "This lab analyzes heat conduction in aluminum, brass, and steel using experimental data and MATLAB models. We compared steady-state and transient responses, applied Fourier series solutions, and optimized thermal diffusivity values to improve model accuracy. Results highlight the importance of material properties and initial conditions in thermal behavior.",
 		imageUrl: "/lab23.jpg",
 	},
 	{
-		id: 4,
+		id: 12,
 		title: "Mortgage Analysis Using Differential Equations",
 		pdfUrl:
 			"https://drive.google.com/file/d/1JVLXOXqFV_-Fiu4W73ymAC-ZNiFrAmlR/view?usp=sharing",
@@ -123,7 +123,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab4.png",
 	},
 	{
-		id: 5,
+		id: 13,
 		title: "Image Manipulation and Compression",
 		pdfUrl:
 			"https://drive.google.com/file/d/1tVfQOrHFt-Wj2Bl_uE4Mg9Z_YwfbTl5b/view?usp=drive_link",
@@ -132,7 +132,7 @@ const labReports: LabReport[] = [
 		imageUrl: "/lab5.png",
 	}, 
 	{
-		id: 3,
+		id: 14,
 		title: "Aerospace Computing - Satellite Tracking Using C++",
 		pdfUrl:
 			"https://drive.google.com/file/d/11_2r9IrR4zb3Kjg10ZCZDbRiC7JVgR90/view?usp=drive_link",
@@ -231,7 +231,7 @@ const labReports: LabReport[] = [
 	// 	imageUrl: "/lab18.png",
 	// },
 	{
-		id: 19,
+		id: 15,
 		title:
 			"Experimental and Computational Analysis of Specific Heat in Calorimeter Systems for Material Identification using MATLAB",
 		pdfUrl:
