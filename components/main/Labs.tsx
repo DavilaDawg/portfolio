@@ -12,13 +12,23 @@ interface LabReport {
 
 const labReports: LabReport[] = [
 	{
+		id: 23,
+		title:
+			"Performance of Airfoils and Finite Wings Using Vortex Panel and Lifting Line Methods",
+		pdfUrl:
+			"https://drive.google.com/file/d/10XWXHLNlDx_SvQP0YpqQDslp1duXC1O-/view?usp=sharing",
+		description:
+			"This lab investigates 2D and 3D aerodynamic properties of airfoils and wings using vortex panel methods and Prandtls lifting line theory. Analyzes the effects of airfoil geometry, taper ratio, and angle of attack on lift, drag, and thrust, and models the performance of a Cessna 180 aircraft under varying flight conditions.",
+		imageUrl: "/lab24.png",
+	},
+	{
 		id: 20,
 		title:
 			"Quadrotor Simulation and Control: Analysis of Nonlinear Dynamics, Linearization, and Feedback Stabilization",
 		pdfUrl:
-			"https://drive.google.com/file/d/1ZQtTOP-5BTHcDe5EANnFDlscscfTMx7S/view?usp=sharing",
+			"https://drive.google.com/file/d/1JbCLsoflwx6KWTSoVuOM6NJzTT6af8F4/view?usp=sharing",
 		description:
-			"This report examines the dynamic modeling, control design, and simulation of a quadrotor. Nonlinear equations of motion are derived and simulated, revealing instability in hovering flight without control. Linearized models and rate feedback control are implemented to improve stability, with feedback controllers designed for roll, pitch, and trajectory tracking. A comparison of linear and nonlinear models highlights the strengths and limitations of each approach. MATLAB simulations in open- and closed-loop configurations validate the findings, providing a framework for quadrotor stabilization and controlled flight.",
+			"This report examines the dynamic modeling, control design, and simulation of a quadrotor. Nonlinear equations of motion are derived and simulated, revealing instability in hovering flight without control. Linearized models and rate feedback control are implemented to improve stability, with feedback controllers designed for roll, pitch, and trajectory tracking. A comparison of linear and nonlinear models was made. MATLAB simulations in open- and closed-loop configurations validate findings, providing a framework for quadrotor stabilization and controlled flight.",
 		imageUrl: "/lab20.png",
 	},
 	{
@@ -28,7 +38,7 @@ const labReports: LabReport[] = [
 		pdfUrl:
 			"https://drive.google.com/file/d/1lUNbakVRxSlUk1uewpZLcr_4KQ-Y_uH0/view?usp=sharing",
 		description:
-			"This lab focused on analyzing the aerodynamic properties and structural loading of a Clark Y14 airfoil using MATLAB. In milestone one, airspeed in a wind tunnel was calculated using pressure data from a Pitot-static tube, finding a maximum velocity of 18.82 m/s with uncertainty. Milestone two calculated the coefficients of lift and drag for different angles of attack, comparing results to NACA data, with deviations likely due to wind tunnel limitations. Milestone three involved structural analysis, calculating deflection, stress, and strain under different load distributions. The experimental deflection matched closely with numerical results for trapezoidal loading, while rectangular loading caused the most deflection",
+			"Analyzing the aerodynamic properties and structural loading of a Clark Y14 airfoil. Airspeed in a wind tunnel was calculated using pressure data from a Pitot-static tube, finding a maximum velocity of 18.82 m/s. Calculated the coefficients of lift and drag for different AoA, comparing results to NACA data, with deviations likely due to wind tunnel limitations. Performed structural analysis by calculating deflection, stress, and strain under different load distributions. Experimental deflection matched closely with numerical results for trapezoidal loading, while rectangular loading caused the most deflection",
 		imageUrl: "/img1.png",
 	},
 	{
@@ -47,7 +57,7 @@ const labReports: LabReport[] = [
 		pdfUrl:
 			"https://drive.google.com/file/d/1-EBkKE5FuDxYuOsFT40jpWpjuNoNNS0G/view?usp=sharing",
 		description:
-			"This lab investigates aircraft dynamics, focusing on three primary cases and doublet inputs to analyze longitudinal and lateral modes. Case 1 shows phugoid oscillations due to non-trim conditions with zero control inputs. Case 2 demonstrates steady flight with minimal oscillations from balanced controls. Case 3 transitions from Dutch roll and phugoid modes to an unstable spiral descent. Doublet input on the elevator excites short-period and phugoid modes, enabling estimates of natural frequencies and damping ratios.",
+			"This lab investigates aircraft dynamics, focusing on three cases and doublet inputs to analyze longitudinal and lateral modes. Case 1 shows phugoid oscillations due to non-trim conditions with zero control inputs. Case 2 demonstrates steady flight with minimal oscillations from balanced controls. Case 3 transitions from Dutch roll and phugoid modes to an unstable spiral descent. Doublet input on the elevator excites short-period and phugoid modes, enabling estimates of natural frequencies and damping ratios.",
 		imageUrl: "/lab21.png",
 	}, 
 	{
@@ -65,7 +75,7 @@ const labReports: LabReport[] = [
 		pdfUrl:
 			"https://drive.google.com/file/d/1YvuyX_h8m3uozVSqL3FxaPJx9k9k2fkr/view?usp=sharing",
 		description:
-			"This lab presents the design and analysis of a roller coaster pilot simulator using MATLAB, integrating virtual reality goggles for basic flight training simulations. The simulator features components such as loops, zero-G parabolas, banked turns, and braking sections, all adhering to specified G-load limitations. Equations were derived from force body diagrams and Newton’s Second Law to calculate G-forces in various directions, and these were implemented in MATLAB to visualize the pilot's path and the associated G-forces. The design treats the pilot as a point mass and assumes a frictionless track with ideal banking to simplify calculations. Recommendations for future projects include deriving motion equations before MATLAB implementation and creating separate functions for smooth transitions between simulator components.",
+			"Design and analysis of a roller coaster pilot simulator, integrating virtual reality goggles for basic flight training simulations. The simulator features loops, zero-G parabolas, banked turns, and braking sections, all adhering to specified G-load limitations. G-forces equations in various directions derived from force body diagrams and Newtons Second Law. These were implemented to visualize the pilot's path and the associated G-forces. The design treats the pilot as a point mass and assumes a frictionless track with ideal banking to simplify calculations.",
 		imageUrl: "/lab6.png",
 	},
 	{
@@ -109,7 +119,7 @@ const labReports: LabReport[] = [
 		pdfUrl:
 			"https://drive.google.com/file/d/1JVLXOXqFV_-Fiu4W73ymAC-ZNiFrAmlR/view?usp=sharing",
 		description:
-			"This lab applied Differential Equations to compare mortgage plans for a $750,000 loan, including a 10-year fixed mortgage at 3%, a 30-year fixed mortgage at 5%, and a variable rate. MATLAB was used to calculate monthly payments, total costs, and to implement Euler’s method for approximating loan amounts over time, with smaller timesteps improving accuracy. The 10-year plan had higher payments but a lower total cost, while the 30-year plan had lower payments and higher costs. Larger monthly payments were shown to reduce total interest, while adjustable rates provided short-term savings at the expense of long-term costs.",
+			"This lab applied Differential Equations to compare mortgage plans for a $750,000 loan, including a 10-year fixed mortgage at 3%, a 30-year fixed mortgage at 5%, and a variable rate. Calculated monthly payments, total costs, and to implement Eulers method for approximating loan amounts over time, with smaller timesteps improving accuracy. The 10-year plan had higher payments but a lower total cost, while the 30-year plan had lower payments and higher costs. Larger monthly payments were shown to reduce total interest, while adjustable rates provided short-term savings at the expense of long-term costs.",
 		imageUrl: "/lab4.png",
 	},
 	{
